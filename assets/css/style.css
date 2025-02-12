@@ -379,7 +379,7 @@ hero .stats {
   font-size: 2.6rem;
   line-height: 1.54;
 }
-/* ======================= feature =======================*/
+/* ======================= feature 1 =======================*/
 .feature {
   margin-top: 135px;
   padding: 65px 0;
@@ -419,4 +419,19 @@ hero .stats {
   width: 137;
   height: 50;
   background: var(--primary-color);
+}
+/* ======================= feature 2 =======================*/
+.feature2 {
+  margin-top: 70px;
+}
+.feature2 .body {
+  flex-direction: row-reverse;
+}
+.feature2 .content {
+  width: 55%;
+}
+.feature2 .images img {
+  width: 470;
+  height: 440;
+  border-radius: 20px;
 }
